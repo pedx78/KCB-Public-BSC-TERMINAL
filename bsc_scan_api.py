@@ -5,7 +5,7 @@ import timeit
 import random
 
 def get_BSC_API_KEY():
-    users = ["92MM9Q3NG1AHGE21YEHMX6F56VWM6GM3PW", "EVC2IFRX4NJ2IAMTK592SI8YX9YWPQCZWJ", "A5NDCHK6QBHRCXVSD2JHG9VMDQKPVZYHCE"]
+    users = [your_api_key, your_api_key, your_api_key]
     magic_number = random.randint(0, 2)
     return (users[magic_number])
 
