@@ -594,18 +594,13 @@ def now():
 
 # Honey detection
 
-def get_BSC_API_KEY():
-    users = ["92MM9Q3NG1AHGE21YEHMX6F56VWM6GM3PW", "EVC2IFRX4NJ2IAMTK592SI8YX9YWPQCZWJ", "A5NDCHK6QBHRCXVSD2JHG9VMDQKPVZYHCE"]
-    magic_number = random.randint(0, 2)
-    return (users[magic_number])
-
 def honey(contract):
     #start = timeit.default_timer()
 
-    #api_key = "92MM9Q3NG1AHGE21YEHMX6F56VWM6GM3PW"
+    #api_key = ""
 
     global verified
-    api_key = get_BSC_API_KEY()
+    api_key = bsc.get_BSC_API_KEY()
 
     ABI = "https://api.bscscan.com/api?module=contract&action=getabi&address="+ contract +"&apikey=" + api_key + ".json"
     
