@@ -19,3 +19,6 @@ This project is a high level terminal to interact with tokens that use pancakesw
         buy:                 (buyer, amount, type) buys amount of tokens at the price of the block it enters
         sell:                (sell, amount or "max", type) sells amount of tokens -currently undere development-
         snipe:                   (buyer, amount, contract_address) snipe fair launches by connecting to to contract and sending a buy at market price 
+  
+
+![kcbbiot](https://user-images.githubusercontent.com/63566185/128554755-6e404973-c878-4e7f-9f0c-57dc50bada36.JPG)
