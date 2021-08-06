@@ -2,11 +2,11 @@
 
 
 wallets = {
-    "Juan": ["0x4B44c71C34Ecd2f64C1A4223149A2b39Ca113F98", '9e7ba19a2d848ea8c4d3fab25e0edfe57835d01e53ca565d7b207d23d717499c']
+    "test_wallet": [wallet_address, wallet_private_key]
 }
 
 names =  {
-    "0x4B44c71C34Ecd2f64C1A4223149A2b39Ca113F98": "Juan" 
+    "wallet_address": test_wallet
 }
 
 
