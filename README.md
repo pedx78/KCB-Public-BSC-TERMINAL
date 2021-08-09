@@ -1,4 +1,4 @@
-# KCB-Public A Python base terminal to interact with bep-20 tokens on the binance smart chain
+# KCB-Public A Python API to interact with bep-20 tokens on the binance smart chain
 
 Tools needed:
 + BSC scan API keys
